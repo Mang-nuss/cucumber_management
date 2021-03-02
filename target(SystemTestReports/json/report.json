@@ -1,0 +1,119 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Setup a menu item",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-11-02T14:00:41.369Z",
+        "line": 35,
+        "name": "Add a menu item",
+        "description": "",
+        "id": "menu-management;add-a-menu-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36,
+            "name": "I have a menu item with name \"N\" and price 10",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334000,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I add that menu item",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592000,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Menu item with name \"N\" should be added",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegularTest"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Setup a menu item",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-11-02T14:00:41.566Z",
+        "line": 41,
+        "name": "Add a menu item",
+        "description": "",
+        "id": "menu-management;add-a-menu-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "I have a menu item with name \"N\" and price 10",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265000,
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "I add that menu item",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 306000,
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "Something happens",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegularTest"
+          }
+        ]
+      }
+    ],
+    "name": "Menu management",
+    "description": "",
+    "id": "menu-management",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featurefiles/management.feature",
+    "tags": []
+  }
+]

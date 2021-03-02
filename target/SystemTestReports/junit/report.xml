@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.622">
+    <testcase classname="Menu management" name="Add a menu item" time="0.159">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I have a menu item with name "N" and price 10.........................undefined
+When I add that menu item...................................................skipped
+Then Menu item with name "N" should be added................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Menu management" name="Add a menu item 2" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I have a menu item with name "N" and price 10.........................undefined
+When I add that menu item...................................................skipped
+Then Something happens......................................................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>
